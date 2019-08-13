@@ -1,6 +1,6 @@
-# Quality Talks (WIP)
+# Enabling Code Quality at TDH - The journey
 
-Quality talks presentation draft
+Quality Talks presentation (draft).
 
 ### Available here: [QT Presentation](https://necosta.github.io/quality-talks/)
 
