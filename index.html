@@ -136,6 +136,7 @@
 						* Sep 2019: Multiple exciting projects under way:
 							* Fine-grained trip segmentation
 							* e-Mobility projects
+							* Global services infrastructure
 					</script>
 				</section>
 				<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
@@ -182,7 +183,7 @@
 				</section>
 				<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
 					<script type="text/template">
-						### Enabling Quality - Choosing the right Tech Stack
+						### Enabling Quality - Choosing the Tech Stack
 
 						> There is no one single tool/technology/process for all situations
 
@@ -212,6 +213,56 @@
 						* Azure as IaaS
 						* Nexus/JFrog Artifactory
 						* Drone CI/CD
+					</script>
+				</section>
+				<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
+					<script type="text/template">
+						## Principles
+
+						> While technologies can come and go, principles and good practices should always remain and be refined
+
+						--
+
+						### Software architecture principles
+
+						* Build in small increments
+						* Change should not be expensive
+						* Do not use speculation to add extra complexity to the architecture
+						* Stop to think what are the bottlenecks (what can go wrong)
+
+						--
+
+						### Testing
+
+						> If your code does not have automated tests, it’s broken. You just don’t know it yet...
+
+						* Unit test - Very narrow and well defined scope
+						* Integration test - Test the correct inter-operation of multiple subsystems
+						* Smoke test (aka Sanity check) - Check the whole system is nominal
+						* Acceptance test - Test that a feature or use case is correctly implemented
+
+						--
+
+						### Testing
+
+						<img data-src="./img/tests_time.png"/>
+
+						--
+
+						### Static code analysis
+
+						* Finds bugs and vulnerabilities early
+						* Consistency
+						* You can define your project specific rules
+
+						--
+
+						### Deploying (actually much more...)
+
+						* Install, Configure, Provision, Deploy, Secure, Monitor, Log, Backup...
+						* High availability, scalability, performance, network, cost optimization
+						* Documentation, tests and maintenance
+
 					</script>
 				</section>
 				<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
