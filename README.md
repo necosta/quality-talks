@@ -2,13 +2,13 @@
 
 Quality Talks presentation
 
-#### Available here: 
+#### Available here:
 
-[QT Presentation](https://necosta.github.io/quality-talks/)
+[Quality Talks Presentation](https://necosta.github.io/quality-talks/)
 
 #### How to:
 
-* How to display slides: 
+* How to display slides:
     * Simply open `index.html` on the browser
     * Or on the cmdline: `open -a "Google Chrome" index.html`
 * How to export slides into .pdf format
@@ -17,8 +17,8 @@ Quality Talks presentation
 
 #### Disclaimer
 
-The views, thoughts, and opinions expressed in this repository belong 
-solely to the author, and not to the author’s employer, organization, 
+The views, thoughts, and opinions expressed in this repository belong
+solely to the author, and not to the author’s employer, organization,
 committee or other group or individual.
 
 #### License
